@@ -1,0 +1,183 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #252627;
+}
+header{
+    height: 400px;
+    width:100%;
+    background: url(./bga.jpg);
+    background-position: absolute;
+    
+   
+}
+nav{
+    padding-top: 30px;
+    padding-left: 450px;
+    background-color: Black;
+}
+.span{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.sectiondiv{
+    width: 100%;
+    height: 400px;
+     margin: auto;
+}
+
+ .heading{
+    text-align: center;
+    color:white;
+    border-bottom: 1px solid white;
+}
+ .headingdiv p{
+    color: white;
+    text-align: left;
+    padding:10px;
+}
+.headingdiv h3{
+    color: white;
+    text-align: left;
+    padding:10px;
+}
+.divhello img{
+    height:200px;
+    width:30%;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    border: 2px solid white;
+    
+}
+
+
+h2{
+    color:white;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+}
+
+.headingdiv{
+    width: 60%;
+   float: right;
+    padding-top: 20px;
+    height:250px
+}
+#about{
+    height: 330px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-direction: row;
+    
+}
+.divedu{
+    height: 280px;
+    width:20%;
+  box-shadow: 0 6px 16px rgba(0,0,0,.25)
+}
+.divedu:hover{
+    opacity:0.5;
+    font-weight: bolder;
+}
+#skills{
+    height: 300px;
+}
+.divsk{
+    height: 30px;
+    width:20%;
+     box-shadow: 0 6px 16px rgba(0,0,0,.25)
+}
+.divsk:hover{
+    opacity:0.5;
+    font-weight: bolder;
+}
+
+#height{
+    height: 500px;
+}
+
+.divp{
+    height: 280px;
+    width:20%;
+    
+    box-shadow: 0 6px 16px rgba(0,0,0,.25)
+}
+.divp:hover{
+    opacity:0.5;
+    font-weight: bolder;
+}
+#certificate{
+    height:550px;
+}
+.divc{
+    height: 200px;
+    width:20%;
+     box-shadow: 0 6px 16px rgba(0,0,0,.25)
+}
+.divc:hover{
+    opacity:0.5;
+    font-weight: bolder;
+}
+#contact{
+    height:250px;
+}
+
+.divco{
+    height: 100px;
+    width:20%;
+     
+    box-shadow: 0 6px 16px rgba(0,0,0,.25)
+}
+.divco p {
+
+    text-align: center;
+}
+.divco p a{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+}
+.divco h3{
+    padding: 20px;
+    text-align: center;
+}
+.divco:hover{
+    opacity:0.5;
+    font-weight: bolder;
+}
+.divsk p{
+    text-align: center;
+    padding:10px;
+}
+p{
+    color: white;
+    text-align: center;
+    
+}
+h3{
+    
+        color: white;
+        text-align: Center;
+        
+
+}
+.insidep{
+    padding:20px
+}
+.insideh{
+    padding:20px
+    
+}
+
+

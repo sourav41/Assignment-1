@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        .main{
+            width: 100%;
+            height:100vh;
+           
+        }
+        .container{
+            width: 400px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color:rgb(114, 106, 103);
+            border-radius: 10px;
+            padding: 50px;
+           
+
+        }
+        .container h1{
+            margin: 30px;
+            text-align: center;
+        }
+       
+        .inputbox input{
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+            border: none;
+            border-bottom: 1px solid black;
+            color:black;
+            background-color: transparent;
+            outline: none;
+        }
+        .submit{
+             border: none;
+            outline:none;
+            color:rgba(226, 93, 15, 0.836);
+            background:#000000;
+            padding:8px 16px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .submit:hover {
+            opacity: 0.8;
+        }
+        img.background {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            position: absolute;
+        }
+     
+     
+    </style>
+</head>
+<body>
+    <header class="main">
+        <div class="imgcontainer">
+            <img src=".\background\bg2.jpg" alt="background" class="background">
+        </div>
+        <div class="container">
+            <h1>Sign In</h1>
+            <form action="./homepage.html ">
+                <div class="inputbox">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                 
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required> 
+                </div>
+                <input type="submit" class="submit" value="Login" > 
+            </form>
+        </div>
+    </header>
+</body>
+</html>
